@@ -1,5 +1,7 @@
 export function Error () {
   return (
-    <h1>Error</h1>
+    <main>
+      <h1>Error</h1>
+    </main>
   )
 }

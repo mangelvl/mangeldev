@@ -1,5 +1,17 @@
+import { About } from './About'
+import { Education } from './Education'
+import { Header } from './Header'
+import { Projects } from './Projects'
+
 export function Home () {
   return (
-    <h1>Home</h1>
+    <>
+      <Header />
+      <main>
+        <About />
+        <Projects />
+        <Education />
+      </main>
+    </>
   )
 }
