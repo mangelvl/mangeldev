@@ -1,21 +1,18 @@
 export function NavBar () {
   return (
     <nav className='nav-bar'>
-      <div className='nav-logo'>
-        <a href='#'>Logo</a>
-      </div>
       <ul className='nav-links'>
         <li>
-          <a href='#header'>Home</a>
+          <a href='#header'>Inicio</a>
         </li>
         <li>
-          <a href='#about'>About</a>
+          <a href='#about'>Sobre mi</a>
         </li>
         <li>
-          <a href='#projects'>Projects</a>
+          <a href='#projects'>Proyectos</a>
         </li>
         <li>
-          <a href='#education'>Education</a>
+          <a href='#education'>Educación</a>
         </li>
       </ul>
     </nav>
