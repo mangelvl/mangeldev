@@ -7,8 +7,8 @@ import { Skills } from './Skills'
 export function Home () {
   return (
     <>
-      <Header />
       <main>
+        <Header />
         <About />
         <Projects />
         <Skills />
